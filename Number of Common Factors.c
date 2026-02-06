@@ -1,0 +1,12 @@
+int commonFactors(int a, int b)
+ {
+    int count=0,i;
+    for(i=1;i<=1000;i++)
+    {
+        if((a%i==0)&&(b%i==0))
+        {
+            count+=1;
+        }
+    }
+    return count;
+ }
